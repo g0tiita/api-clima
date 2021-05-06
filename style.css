@@ -1,0 +1,48 @@
+*{
+	/*outline: 1px dotted red;*/
+	font-family: 'Oswald', sans-serif;
+
+}
+.content{
+	width: 600px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #e4e0e0;
+
+}
+h3{
+	padding-bottom: 20px;
+}
+.color-naranja{
+	color: #fb5f42;
+}
+input{
+	text-transform: uppercase;
+}
+label{
+	text-transform: uppercase;
+}
+.num-temp{
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.btn{
+	background-color: #fb5f42; 
+	width: 100%;
+}
+#img{
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+}
+p{
+	font-size: 24px;
+}
+span{
+	font-size: 24px;
+}
+.laAppi{
+	font-size: 12px;
+}
