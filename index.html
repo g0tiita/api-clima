@@ -13,13 +13,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap" rel="stylesheet"> 
 
-
+    <script src="secrets.js"></script>
     <script>
         $(document).ready(function(){
             $('form').submit(function() {
                 // your code here (build up your url)
                 let city = $('#input-city').val();
-                let key = '24932ed455105c8250b4eea4afee0135';
                 let url = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+key+'&lang=es&units=metric';
                
                 $.get(url, function(data) {
